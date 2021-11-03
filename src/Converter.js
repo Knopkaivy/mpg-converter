@@ -6,12 +6,6 @@ const Converter = (props) => {
   const [mpg, setMpg] = useState(0);
   const [lp100, setLp100] = useState(0);
   const [mpgIntoLp100, setMpgIntoLp100] = useState(true);
-  //   useEffect(() => {
-  //     setLp100((100 / ((mpg * 1.609344) / 3.78541)).toFixed(2));
-  //   }, [mpg]);
-  //   useEffect(() => {
-  //     setMpg((((lp100 / 100) * 3.78541) / 1.609344).toFixed(2));
-  //   }, [lp100]);
 
   let updateMpg = (evt) => {
     return setMpg(evt.target.value);
@@ -25,7 +19,7 @@ const Converter = (props) => {
 
   return (
     <div className="Converter-container">
-      <h1>I'm a Converter component</h1>
+      <h1>Gas Usage Converter</h1>
       <div>
         <button onClick={toggleConverter}>Switch</button>
       </div>

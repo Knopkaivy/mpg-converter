@@ -12,7 +12,7 @@ const Lp100ToMpg = ({ mpg, lp100, setMpg, updateLp100 }) => {
       </div>
       <div className="input-section">
         <input id="lp100" type="number" value={lp100} onChange={updateLp100} />
-        <label for="lp100">Litres Per 100 km</label>
+        <label for="lp100">Liters Per 100 km</label>
       </div>
     </div>
   );

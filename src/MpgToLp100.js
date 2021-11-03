@@ -18,7 +18,7 @@ const MpgToLp100 = ({ mpg, lp100, updateMpg, setLp100 }) => {
           // onChange={updateLp100}
           disabled="disabled"
         />
-        <label for="lp100">Litres Per 100 km</label>
+        <label for="lp100">Liters Per 100 km</label>
       </div>
     </div>
   );
