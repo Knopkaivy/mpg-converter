@@ -13,6 +13,9 @@ body {
   align-items: center;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.05);
 }
+h1 {
+  color: #ce0505;
+}
 button {
   width: 10rem;
   margin: 1rem;
