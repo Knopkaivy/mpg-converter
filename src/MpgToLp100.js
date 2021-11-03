@@ -14,7 +14,7 @@ const MpgToLp100 = ({ mpg, lp100, updateMpg, setLp100 }) => {
           min="1"
           onChange={updateMpg}
         />
-        <label for="mpg">Miles Per Gallon</label>
+        <label htmlFor="mpg">Miles Per Gallon</label>
       </div>
       <div className="input-section">
         <input
@@ -24,7 +24,7 @@ const MpgToLp100 = ({ mpg, lp100, updateMpg, setLp100 }) => {
           min="1"
           disabled="disabled"
         />
-        <label for="lp100">Liters Per 100 km</label>
+        <label htmlFor="lp100">Liters Per 100 km</label>
       </div>
     </div>
   );
