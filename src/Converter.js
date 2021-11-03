@@ -3,8 +3,8 @@ import MpgToLp100 from './MpgToLp100';
 import Lp100ToMpg from './Lp100ToMpg';
 
 const Converter = (props) => {
-  const [mpg, setMpg] = useState(0);
-  const [lp100, setLp100] = useState(0);
+  const [mpg, setMpg] = useState(1);
+  const [lp100, setLp100] = useState(1);
   const [mpgIntoLp100, setMpgIntoLp100] = useState(true);
 
   let updateMpg = (evt) => {
